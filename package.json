@@ -1,0 +1,17 @@
+{
+  "name": "moveit-hosts-hook",
+  "version": "0.0.1",
+  "description": "MVP hook for moveit project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Le",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "express": "^4.12.0",
+    "gitlabhook": "0.0.11",
+    "lodash": "^2.4.1"
+  }
+}

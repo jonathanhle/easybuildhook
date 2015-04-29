@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
 if(req.param('key')!=='hello'){
 res.send(404,'not found');
 }
-shell.exec('/var/root/moveit_node_server/change_hosts.sh');
+shell.exec('change_hosts.sh');
 res.send('changing')
 })
 
